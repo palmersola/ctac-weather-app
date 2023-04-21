@@ -1,0 +1,81 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #ec6e4c;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#current,
+#search,
+#forecast {
+  margin: 2vh 0;
+}
+
+#current {
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+#search,
+form {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+  margin-left: 20px;
+}
+
+#forecast {
+  background-color: #ec6e4c;
+  padding: 10px;
+  text-align: center;
+}
+
+#forecast h3 {
+  background-color: #f2f2f2;
+  padding: 5px;
+  margin: 5px 5px;
+  font-size: x-large;
+}
+
+#fiveDay {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fiveDay {
+  width: 130px;
+  height: 245px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 0 10px;
+  align-items: center;
+}
+.fiveDay p {
+  margin: 5px 0;
+}
